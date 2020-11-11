@@ -5,10 +5,9 @@ import AppButton from "../components/AppButton";
 import routes from "../navigation/routes";
 
 function WelcomeScreen({ navigation }) {
-  console.log("working");
   return (
     <ImageBackground
-      blurRadius="5"
+      blurRadius={5}
       style={styles.background}
       source={require("../assets/background.jpg")}
     >
